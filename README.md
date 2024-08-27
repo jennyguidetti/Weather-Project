@@ -1,6 +1,6 @@
 # Python Weather Project
 
-Everyday we collect data about the weather in order to predict the forecast for the coming days. The problem is that this data is never in a human readable format. This project uses python code to process csv files containing data about the weather, and convert them into meaningful text-based summaries. The csv and datetime modules have been used to assist with this task. 
+Everyday we collect data about the weather in order to predict the forecast for the coming days. The problem is that this data is never in a human readable format. This project uses python code to process csv files containing data about the weather, and converts them into meaningful text-based summaries. The csv and datetime modules have been used to assist with this task. 
 
 ## Functions
 
@@ -14,5 +14,6 @@ Everyday we collect data about the weather in order to predict the forecast for 
 
 ## Testing
 
-Several tests have been completed to ensure the correct output for a variety of different inputs.
+Several tests have been completed to ensure the correct outputs for a variety of different inputs.
+
 ![screenshot of all tests passing](./tests_passed.png)
