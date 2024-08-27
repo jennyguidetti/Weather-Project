@@ -17,3 +17,9 @@ Everyday we collect data about the weather in order to predict the forecast for 
 Several tests have been completed to ensure the correct outputs for a variety of different inputs.
 
 ![screenshot of all tests passing](./tests_passed.png)
+
+## Learning Points
+
+Whilst some of the functions were straight forward to complete with simple equations and logic, others required more lateral thinking to break down the tasks. A solid understanding of loops and lists was necessary to solve problems. The final two functions required utilising the previous functions in incremental steps. Close attention to spacing was important to execute all tests as expected. 
+
+
