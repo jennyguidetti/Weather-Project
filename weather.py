@@ -14,6 +14,7 @@ def format_temperature(temp):
     """
     return f"{temp}{DEGREE_SYMBOL}"
 
+
 def convert_date(iso_string):
     """Converts and ISO formatted date into a human-readable format.
 
@@ -31,6 +32,7 @@ def convert_date(iso_string):
     # return formatted date string
     return new_format
 
+
 def convert_f_to_c(temp_in_fahrenheit):
     """Converts a temperature from Fahrenheit to Celcius.
 
@@ -47,6 +49,7 @@ def convert_f_to_c(temp_in_fahrenheit):
 
     # return rounded celcius temp
     return rounded_temp_celcius
+
 
 def calculate_mean(weather_data):
     """Calculates the mean value from a list of numbers.
@@ -68,6 +71,7 @@ def calculate_mean(weather_data):
 
     # return calculated mean value
     return mean
+
 
 def load_data_from_csv(csv_file):
     """Reads a csv file and stores the data in a list.
@@ -99,6 +103,7 @@ def load_data_from_csv(csv_file):
     # return list of lists
     return data
 
+
 def find_min(weather_data):
     """Calculates the minimum value in a list of numbers.
 
@@ -124,6 +129,7 @@ def find_min(weather_data):
     # return tuple
     return answer
 
+
 def find_max(weather_data):
     """Calculates the maximum value in a list of numbers.
 
@@ -148,6 +154,7 @@ def find_max(weather_data):
     answer = (float(max_temp), max_index)
     # return tuple
     return answer
+
 
 def generate_summary(weather_data):
     """Outputs a summary for the given weather data.
